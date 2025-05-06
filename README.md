@@ -28,3 +28,8 @@ The ultimate page for fans to come and find history about the club, showing all 
 - Making sure everyone can access it with people have needs.
 - Attract wide audience like fans from all around the world.
 - Allow fans to contact us about adding infomation or getting infomation about the club.
+
+## Target Audience
+
+- Liverpool Fans.
+- Casual Viewers.
