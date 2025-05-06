@@ -19,3 +19,12 @@ The ultimate page for fans to come and find history about the club, showing all 
 - As a user, I want it clear what trohpies they have won.
 - As a user, I want the content to be accessible with anyone with needs.
 - As a user, I want all the sections to be easy to understand.
+
+## Website Goals and Objectives
+
+- Provide correct infomation for fans to see.
+- Make it enjoyable to read.
+- Adding all the club trophies, club legends, club stories.
+- Making sure everyone can access it with people have needs.
+- Attract wide audience like fans from all around the world.
+- Allow fans to contact us about adding infomation or getting infomation about the club.
