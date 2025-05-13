@@ -39,3 +39,5 @@ The ultimate page for fans to come and find history about the club, showing all 
 Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by doing Mobile version first then Tablet then follow with Desktop.
 
 [Mobile Wireframes](docs/wireframes/Mobile.png "Mobile Wireframes")
+
+[Tablet Wireframe](docs/wireframes/Tablet.png "Tablet Wireframes")
