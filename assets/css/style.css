@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #FF0000;
+}
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media Queries */
+
+/* Mobile & Tablet Navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0.8rem;
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #FF0000;
+        padding: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .hamburger {
+        display: block;
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    /* When menu is active */
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-links li:last-child {
+        border-bottom: none;
+    }
+
+    .nav-links .nav-link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-links .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 0.6rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 1.1rem;
+        padding: 0.8rem;
+    }
+}
