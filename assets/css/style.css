@@ -71,7 +71,7 @@ body {
 
 /* Hero */
 .hero {
-    background-image: url('/assets/images/cover.png');
+    background-image: url('/assets/images/cover.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -224,13 +224,15 @@ body {
 /* Legends */
 
 .cards.legends-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem 4.5rem;
+    justify-items: center;
     align-items: stretch;
-    gap: 2rem;
     margin: 0 auto;
-    max-width: 100vw;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .legend-card {
@@ -376,10 +378,10 @@ body {
     }
 
     .cards.legends-row {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem 0;
         padding: 0 0.5rem;
+        max-width: 100vw;
     }
 
     .legend-card {
