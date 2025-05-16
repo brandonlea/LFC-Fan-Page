@@ -26,6 +26,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+}
+
+.nav-links .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.nav-links .nav-link:hover {
+   position: relative;
+   top: -5px;
+   transition: top ease 1.5s;
 }
 
 .logo {
@@ -73,6 +88,47 @@
     font-size: 1.2rem;
 }
 
+
+/* Stories */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.story-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 30vw;
+}
+
+.story-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-card p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 
 /* Media Queries */
