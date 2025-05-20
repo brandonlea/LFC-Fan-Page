@@ -456,6 +456,48 @@ body {
     text-align: center;
   }
   
+
+  /* Footer */
+
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .footer-social {
+    color: var(--text-black);
+    margin: 0 1rem;
+    transition: color 0.2s;
+  }
+  
+  .footer-social:hover {
+    color: var(--primary-color);
+  }
+  
+  
+  
+  
+  
   
   
   
@@ -463,7 +505,7 @@ body {
 
 /* Media Queries */
 
-/* Mobile & Tablet Navbar */
+/* Tablet */
 @media (max-width: 768px) {
     .navbar {
         padding: 0.8rem;
@@ -521,6 +563,37 @@ body {
         background-color: rgba(255, 255, 255, 0.1);
     }
 
+    /* Hero */
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+     /* History */
+
+     .history-card {
+        flex-direction: column;
+    }
+
+    .history-content h3 {
+        font-size: 1rem;
+    }
+
+    .history-card p {
+        font-size: 1rem;
+    }
+
+    .history-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Stories */
+
     .story-card {
         width: 90%;
         min-width: 280px;
@@ -535,6 +608,8 @@ body {
         font-size: 0.95rem;
         padding: 0 0.5rem;
     }
+
+    /* Trophies */
 
     .trophy-card {
         flex-direction: column;
@@ -563,6 +638,8 @@ body {
         font-size: 1rem;
     }
 
+    /* Legends */
+
     .cards.legends-row {
         grid-template-columns: 1fr;
         gap: 1.5rem 0;
@@ -581,6 +658,15 @@ body {
         width: 90vw;
         max-width: 18rem;
         height: auto;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .contact-form .btn {
+        width: 100%;
+        max-width: 250px;
     }
 }
 
@@ -614,46 +700,34 @@ body {
         font-size: 1rem;
     }
 
+    /* Button */
     .btn {
         font-size: 1rem;
         padding: 0.8rem 1.5rem;
     }
 
+    /* Footer */
+    .footer-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        gap: 1rem;
+    }
+    .footer-section {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+    .footer-social {
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+    }
+    .footer-social i {
+        font-size: 1.5rem;
+    }
 }
 
 
-/* Tablet */
-@media (max-width: 768px) {
-    /* Hero */
-    .hero {
-        height: 70vh;
-    }
-
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-     /* History */
-
-     .history-card {
-        flex-direction: column;
-    }
-
-    .history-content h3 {
-        font-size: 1rem;
-    }
-
-    .history-card p {
-        font-size: 1rem;
-    }
-
-    .history-card img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-}
 
 /* Desktop */
 @media (max-width: 1000px) {
@@ -664,17 +738,5 @@ body {
         width: 90vw;
         max-width: 20rem;
         height: auto;
-    }
-}
-
-/* Mobile & Tablet Contact Form */
-@media (max-width: 576px) {
-    .form-row {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    .contact-form .btn {
-        width: 100%;
-        max-width: 250px;
     }
 }
