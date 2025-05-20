@@ -31,6 +31,22 @@ body {
     padding: 2rem;
 }
 
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--darker-primary);
+    cursor: pointer;
+}
+
 /* Navbar */
 .navbar {
     position: fixed;
@@ -378,6 +394,72 @@ body {
     margin-bottom: 0.5rem;
   }
   
+  /* Contact */
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .form-row .form-group {
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-group label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--text-black);
+    text-align: left;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form .form-group {
+    width: 100%;
+  }
+
+  .contact-form .btn {
+    display: block;
+    margin: 2rem auto 0 auto;
+    width: 200px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
 
 /* Media Queries */
 
@@ -582,5 +664,17 @@ body {
         width: 90vw;
         max-width: 20rem;
         height: auto;
+    }
+}
+
+/* Mobile & Tablet Contact Form */
+@media (max-width: 576px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .contact-form .btn {
+        width: 100%;
+        max-width: 250px;
     }
 }
