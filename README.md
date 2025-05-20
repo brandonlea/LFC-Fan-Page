@@ -19,6 +19,9 @@ The ultimate page for fans to come and find history about the club, showing all 
 - As a user, I want it clear what trohpies they have won.
 - As a user, I want the content to be accessible with anyone with needs.
 - As a user, I want all the sections to be easy to understand.
+- As a user, I want to learn something new.
+- As a user, I want to find more history about the club.
+- As a user, I want to see the team.
 
 ## Website Goals and Objectives
 
@@ -28,6 +31,7 @@ The ultimate page for fans to come and find history about the club, showing all 
 - Making sure everyone can access it with people have needs.
 - Attract wide audience like fans from all around the world.
 - Allow fans to contact us about adding infomation or getting infomation about the club.
+- Make it easy to navigate and find different sections.
 
 ## Target Audience
 
@@ -43,3 +47,7 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by
 [Tablet Wireframe](docs/wireframes/Tablet.png "Tablet Wireframe")
 
 [Desktop Wireframe](docs/wireframes/Desktop.png "Desktop Wireframe")
+
+## Liberies
+
+I only used Font Awesome for the icons.
