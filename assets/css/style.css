@@ -31,12 +31,6 @@ body {
     padding: 2rem;
 }
 
-/* Even Sections */
-#main-content section:nth-child(even) {
-    background-color: var(--primary-color);
-    color: var(--text-white);
-}
-
 /* Navbar */
 .navbar {
     position: fixed;
@@ -90,7 +84,7 @@ body {
 
 /* Hero */
 .hero {
-    background-image: url('/assets/images/cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -135,6 +129,12 @@ body {
 
 .hero-content .btn:hover, .hero-content .btn:focus {
     background-color: var(--darker-primary);
+}
+
+/* Even Sections */
+#main-content section:nth-child(even) {
+    background-color: var(--primary-color);
+    color: var(--text-white);
 }
 
 /* Stories */
