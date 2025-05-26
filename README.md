@@ -14,7 +14,7 @@ The ultimate page for fans to come and find history about the club, showing all 
 - [Designs](#designs)
   - [Typography](#typography)
   - [Colors](#colors)
-- [Techologies Used](#techologies-used)
+- [Technologies Used](#Technologies-used)
   - [Languages](#languages)
   - [Libraries](#libraries)
   - [Tools](#tools)
@@ -36,7 +36,7 @@ The ultimate page for fans to come and find history about the club, showing all 
 
 - User friendly navigation.
 - User accessibility needs.
-- Clear infomation written all in English.
+- Clear information written all in English.
 - Make sure all the data is correct.
 - Easy to read.
 - Make sure each section is clear.
@@ -46,7 +46,7 @@ The ultimate page for fans to come and find history about the club, showing all 
 - As a user, I want to see correct stories.
 - As a user, I want to see it working on all devices.
 - As a user, I want a clear navigation.
-- As a user, I want it clear what trohpies they have won.
+- As a user, I want it clear what trophies they have won.
 - As a user, I want the content to be accessible with anyone with needs.
 - As a user, I want all the sections to be easy to understand.
 - As a user, I want to learn something new.
@@ -55,12 +55,12 @@ The ultimate page for fans to come and find history about the club, showing all 
 
 ## Website Goals and Objectives
 
-- Provide correct infomation for fans to see.
+- Provide correct information for fans to see.
 - Make it enjoyable to read.
 - Adding all the club trophies, club legends, club stories.
 - Making sure everyone can access it with people have needs.
 - Attract wide audience like fans from all around the world.
-- Allow fans to contact us about adding infomation or getting infomation about the club.
+- Allow fans to contact us about adding information or getting information about the club.
 - Make it easy to navigate and find different sections.
 
 ## Target Audience
@@ -70,7 +70,7 @@ The ultimate page for fans to come and find history about the club, showing all 
 
 ## Wireframes
 
-Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by doing Mobile version first then Tablet then follow with Desktop.
+Wireframes was designed by using Balsamiq Wireframes, I followed best practice by doing Mobile version first then Tablet then follow with Desktop.
 
 [Mobile Wireframe](docs/wireframes/Mobile.png "Mobile Wireframe")
 
@@ -80,11 +80,11 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by
 
 ## Designs
 
-I have chossen these colors and font because it matches the Liverpool FC color scheme.
+I have chosen these colors and font because it matches the Liverpool FC color scheme.
 
 ## Typography
 
-The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato, "Lato") because it makes it feel modern while mathcing the theme.
+The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato, "Lato") because it makes it feel modern while matching the theme.
 
 ## Colors
 
