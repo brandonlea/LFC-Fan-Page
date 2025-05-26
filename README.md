@@ -1,6 +1,15 @@
 # LFC Fan Page
 
+## Project Description
+
 The ultimate page for fans to come and find history about the club, showing all titles that have been won and show all Liverpool Football Club Legends.
+
+## Main Purpose
+
+- To create a fan page for Liverpool FC Supports.
+- To provide comprehensive historical information about the club.
+- To showcase all titles and trophies won by the club.
+- To highlight Liverpool FC legends
 
 ## User Goals
 
@@ -48,6 +57,16 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by
 
 [Desktop Wireframe](docs/wireframes/Desktop.png "Desktop Wireframe")
 
-## Liberies
+## Techologies Used
 
-I only used Font Awesome for the icons.
+- HTML5
+- CSS3
+- JavaScript
+- FontAwesome
+
+## Future Improvements
+
+- [ ] Add more interactive features.
+- [ ] Implement dark mode.
+- [ ] Add more historical content
+- [ ] Add a FAQ section.
