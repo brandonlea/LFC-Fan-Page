@@ -19,6 +19,11 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [Libraries](#libraries)
   - [Tools](#tools)
 - [Future Improvements](#future-improvements)
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Content Sections](#content-sections)
+  - [User Experience](#user-experience)
+  - [Technical Features](#technical-features)
 
 ## Main Purpose
 
