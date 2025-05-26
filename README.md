@@ -85,7 +85,7 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 ![Coolors Scheme](docs/colors/LFC%20Colors.png)
 
-## Techologies Used
+## Technologies Used
 
 ## Languages
 
@@ -110,3 +110,39 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - [ ] Implement dark mode.
 - [ ] Add more historical content
 - [ ] Add a FAQ section.
+
+## Features
+
+### Navigation
+
+- Responsive navigation bar with hamburger menu for mobile devices
+- Smooth scrolling to different sections
+- Clear and intuitive menu structure
+
+### Content Sections
+
+- Hero section with call-to-action
+- Stories section showcasing iconic Liverpool FC moments
+- Trophies section displaying all club achievements
+- Legends section featuring club icons
+- History section with timeline of important events
+- Current team roster with player information
+- Contact form for user interaction
+
+### User Experience
+
+- Responsive design (Mobile, Tablet, Desktop)
+- Accessible navigation and content
+- Clear typography using Lato font
+- Liverpool FC color scheme integration
+- Interactive elements (hover effects, buttons)
+- Form validation for contact section
+
+### Technical Features
+
+- Mobile-first approach
+- Cross-browser compatibility
+- Fast loading times
+- SEO-friendly structure
+- Social media integration
+- Contact form with FormSubmit.co integration
