@@ -92,18 +92,18 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 ## Technologies Used
 
-## Languages
+### Languages
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Libraries
+### Libraries
 
 - Google Fonts
 - FontAwesome
 
-## Tools
+### Tools
 
 - Github
 - Balsamiq
