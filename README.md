@@ -4,6 +4,8 @@
 
 The ultimate page for fans to come and find history about the club, showing all titles that have been won and show all Liverpool Football Club Legends.
 
+## Contents
+
 [Contents](#contents)
 
 - [User Goals](#user-goals)
@@ -151,3 +153,12 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - SEO-friendly structure
 - Social media integration
 - Contact form with FormSubmit.co integration
+
+## Credits
+
+- Feedback and Support
+  - [Simen Daehlin](https://github.com/Eventyret)
+- Images
+  - [Liverpool FC](https://liverpoolfc.com/)
+
+[Back to the Top](#contents)
