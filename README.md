@@ -75,6 +75,8 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by
 
 ## Designs
 
+I have chossen these colors and font because it matches the Liverpool FC color scheme.
+
 ## Typography
 
 The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato, "Lato") because it makes it feel modern while mathcing the theme.
