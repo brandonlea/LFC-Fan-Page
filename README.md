@@ -4,6 +4,22 @@
 
 The ultimate page for fans to come and find history about the club, showing all titles that have been won and show all Liverpool Football Club Legends.
 
+[Contents](#contents)
+
+- [User Goals](#user-goals)
+- [User Stories](#user-stories)
+- [Website Goals & Objectives](#website-goals-and-objectives)
+- [Target Audience](#target-audience)
+- [Wireframes](#wireframes)
+- [Designs](#designs)
+  - [Typography](#typography)
+  - [Colors](#colors)
+- [Techologies Used](#techologies-used)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Future Improvements](#future-improvements)
+
 ## Main Purpose
 
 - To create a fan page for Liverpool FC Supports.
@@ -57,12 +73,34 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best pratice by
 
 [Desktop Wireframe](docs/wireframes/Desktop.png "Desktop Wireframe")
 
+## Designs
+
+## Typography
+
+The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato, "Lato") because it makes it feel modern while mathcing the theme.
+
+## Colors
+
+![Coolors Scheme](docs/colors/LFC%20Colors.png)
+
 ## Techologies Used
+
+## Languages
 
 - HTML5
 - CSS3
 - JavaScript
+
+## Libraries
+
+- Google Fonts
 - FontAwesome
+
+## Tools
+
+- Github
+- Balsamiq
+- CDNJS
 
 ## Future Improvements
 
