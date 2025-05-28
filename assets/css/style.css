@@ -201,8 +201,8 @@ body {
 
 .card-image {
     width: 100%;
-    object-fit: contain;
-    object-position: center top;
+    height: 12.5rem;
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -330,11 +330,9 @@ body {
 #history .cards .card .card-title {
     font-size: 1rem;
 }
-
-  
   /* Contact */
 
-  .contact-content {
+  #contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,31 +342,31 @@ body {
     padding: 2rem;
   }
 
-  .contact-form {
+  #contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
 
-  .form-row {
+  #form-row {
     display: flex;
     gap: 1rem;
     width: 100%;
   }
 
-  .form-row .form-group {
+  #form-row #form-group {
     flex: 1;
     margin-bottom: 1rem;
   }
 
-  .form-group {
+  #form-group {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
-  .form-group label {
+  #form-group label {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -376,22 +374,15 @@ body {
     text-align: left;
   }
 
-  .form-group input, .form-group textarea {
+  #form-group input, #form-group textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
 
-  .contact-form .form-group {
+  #contact-form #form-group {
     width: 100%;
-  }
-
-  .contact-form .btn {
-    display: block;
-    margin: 2rem auto 0 auto;
-    width: 200px;
-    text-align: center;
   }
   
 
