@@ -282,7 +282,7 @@ body {
 /* Hero */
 
 #home {
-    background-image: url('../images/cover.jpg');
+    background-image: url('../images/cover.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
