@@ -2,7 +2,9 @@
 
 ## Project Description
 
-The ultimate page for fans to come and find history about the club, showing all titles that have been won and show all Liverpool Football Club Legends.
+The ultimate page for fans to come and find history about the club, showing all titles that have been won and show all Liverpool Football Club Legends, Also tell you the stories that has happend!
+
+![Website](docs/device/devices.png)
 
 ## Contents
 
@@ -21,6 +23,7 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [Libraries](#libraries)
   - [Tools](#tools)
 - [Future Improvements](#future-improvements)
+- [Changes](#changes)
 - [Features](#features)
   - [Navigation](#navigation)
   - [Content Sections](#content-sections)
@@ -34,6 +37,8 @@ The ultimate page for fans to come and find history about the club, showing all 
 - To showcase all titles and trophies won by the club.
 - To highlight Liverpool FC legends
 
+[Back to the Top](#contents)
+
 ## User Goals
 
 - User friendly navigation.
@@ -42,6 +47,8 @@ The ultimate page for fans to come and find history about the club, showing all 
 - Make sure all the data is correct.
 - Easy to read.
 - Make sure each section is clear.
+
+[Back to the Top](#contents)
 
 ## User Stories
 
@@ -55,6 +62,8 @@ The ultimate page for fans to come and find history about the club, showing all 
 - As a user, I want to find more history about the club.
 - As a user, I want to see the team.
 
+[Back to the Top](#contents)
+
 ## Website Goals and Objectives
 
 - Provide correct information for fans to see.
@@ -65,10 +74,14 @@ The ultimate page for fans to come and find history about the club, showing all 
 - Allow fans to contact us about adding information or getting information about the club.
 - Make it easy to navigate and find different sections.
 
+[Back to the Top](#contents)
+
 ## Target Audience
 
 - Liverpool Fans.
 - Casual Viewers.
+
+[Back to the Top](#contents)
 
 ## Wireframes
 
@@ -80,6 +93,8 @@ Wireframes was designed by using Balsamiq Wireframes, I followed best practice b
 
 [Desktop Wireframe](docs/wireframes/Desktop.png "Desktop Wireframe")
 
+[Back to the Top](#contents)
+
 ## Designs
 
 I have chosen these colors and font because it matches the Liverpool FC color scheme.
@@ -88,9 +103,13 @@ I have chosen these colors and font because it matches the Liverpool FC color sc
 
 The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato, "Lato") because it makes it feel modern while matching the theme.
 
+[Back to the Top](#contents)
+
 ## Colors
 
 ![Coolors Scheme](docs/colors/LFC%20Colors.png)
+
+[Back to the Top](#contents)
 
 ## Technologies Used
 
@@ -100,16 +119,28 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - CSS3
 - JavaScript
 
+[Back to the Top](#contents)
+
 ### Libraries
 
 - Google Fonts
 - FontAwesome
+
+[Back to the Top](#contents)
 
 ### Tools
 
 - Github
 - Balsamiq
 - CDNJS
+- Am I Responsive
+- WAVE Accessibility Tool
+- CompressNow
+- LightHouse
+- W3C HTML Validation Service
+- W3C CSS Validation Service
+
+[Back to the Top](#contents)
 
 ## Future Improvements
 
@@ -118,6 +149,15 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - [ ] Add more historical content
 - [ ] Add a FAQ section.
 
+[Back to the Top](#contents)
+
+## Changes
+
+- I had to make a few changes from the wireframe since I made the design wide and forget to consider how it would look.
+- Color changes to make it better for contrast.
+
+[Back to the Top](#contents)
+
 ## Features
 
 ### Navigation
@@ -125,6 +165,8 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - Responsive navigation bar with hamburger menu for mobile devices
 - Smooth scrolling to different sections
 - Clear and intuitive menu structure
+
+[Back to the Top](#contents)
 
 ### Content Sections
 
@@ -136,6 +178,8 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - Current team roster with player information
 - Contact form for user interaction
 
+[Back to the Top](#contents)
+
 ### User Experience
 
 - Responsive design (Mobile, Tablet, Desktop)
@@ -145,6 +189,8 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - Interactive elements (hover effects, buttons)
 - Form validation for contact section
 
+[Back to the Top](#contents)
+
 ### Technical Features
 
 - Mobile-first approach
@@ -153,6 +199,8 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - SEO-friendly structure
 - Social media integration
 - Contact form with FormSubmit.co integration
+
+[Back to the Top](#contents)
 
 ## Credits
 
