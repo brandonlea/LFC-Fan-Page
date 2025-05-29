@@ -7,8 +7,8 @@
     --secondary-color: #F8F8F8;
     --darker-primary: #be0404;
 
-    --text-white: #fff;
-    --text-black: #000;
+    --white: #fff;
+    --black: #000;
 }
 
 /* Reset */
@@ -29,6 +29,7 @@ body {
 }
 
 /* Utility Classes */
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -36,6 +37,7 @@ body {
 }
 
 /* Text Classes */
+
 .text-title {
     font-size: 2rem;
     font-weight: bold;
@@ -53,12 +55,9 @@ body {
 /* Color Classes */
 
 .color-white {
-    color: var(--text-white);
+    color: var(--white);
 }
 
-.color-black {
-    color: var(--text-black);
-}
 
 .color-primary {
     color: var(--primary-color);
@@ -74,35 +73,20 @@ body {
     font-weight: bold;
 }
 
-.font-normal {
-    font-weight: normal;
-}
-
 /* Text Size */
-
-.text-small {
-    font-size: 0.8rem;
-}
 
 .text-medium {
     font-size: 1rem;
 }
 
-.text-large {
-    font-size: 1.5rem;
-}
-
 /* Line Height */
-
-.line-height-1 {
-    line-height: 1;
-}
 
 .line-height-2 {
     line-height: 1.5;
 }
 
 /* Margin Classes */
+
 .margin-bottom-1 {
     margin-bottom: 1rem;
 }
@@ -111,49 +95,28 @@ body {
     margin-bottom: 2rem;
 }
 
-.margin-bottom-3 {
-    margin-bottom: 3rem;
-}
-
 .margin-top-1 {
     margin-top: 1rem;
 }
 
-.margin-top-2 {
-    margin-top: 2rem;
-}
-
-.margin-top-3 {
-    margin-top: 3rem;
-}
-
-/* Padding Classes */
-
-.padding-1 {
-    padding: 1rem;
-}
-
-.padding-2 {
-    padding: 2rem;
-}
-
-.padding-3 {
-    padding: 3rem;
-}
 
 /* Section Classes */
+
 .section {
     padding: 2rem;
 }
 
 .section-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 1rem 2rem;
     background-color: var(--primary-color);
-    color: var(--text-white);
+    color: var(--white);
     border-radius: 1rem;
+    max-width: 37.5rem;
+    margin: 2rem auto 1.5rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 /* Cards Classes */
@@ -182,8 +145,6 @@ body {
     min-width: 0;
     max-width: 14rem;
 }
-
-
 
 .card {
     display: flex;
@@ -217,7 +178,7 @@ body {
     text-align: left;
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--text-black);
+    color: var(--black);
     padding: 0 1rem;
 }
 
@@ -228,8 +189,9 @@ body {
 }
 
 /* Button Classes */
+
 .btn {
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -238,7 +200,7 @@ body {
 
 .btn-primary {
     background-color: var(--primary-color);
-    color: var(--text-white);
+    color: var(--white);
 }
 
 .btn-primary:hover, .btn-primary:focus {
@@ -300,7 +262,7 @@ body {
 }
 
 .nav-links .nav-link {
-    color: var(--text-white);
+    color: var(--white);
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
@@ -318,6 +280,7 @@ body {
 }
 
 /* Hero */
+
 #home {
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -327,6 +290,7 @@ body {
 }
 
 /* History */
+
 #history .cards .card .card-title {
     font-size: 1rem;
 }
@@ -370,7 +334,7 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: var(--text-black);
+    color: var(--black);
     text-align: left;
   }
 
@@ -388,51 +352,50 @@ body {
 
   /* Footer */
 
-  .footer {
-    padding: 2rem;
+  #footer {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
   }
 
-  .footer-content {
+  #footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    gap: 1.5rem;
   }
 
-  .footer-section {
+  #footer-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .footer-section h3 {
-    font-size: 1.5rem;
+  #footer-section h3 {
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1rem;
   }
 
-  .footer-social {
-    color: var(--text-black);
-    margin: 0 1rem;
+  #footer-section p {
+    font-size: 0.8rem;
+  }
+
+  #footer-social {
+    color: var(--white);
     transition: color 0.2s;
+    font-size: 1rem;
   }
   
-  .footer-social:hover {
+  #footer-social:hover, #footer-social:focus {
     color: var(--primary-color);
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-
 /* Media Queries */
+
 /* Desktop */
 @media (min-width: 1000px) {
     .navbar {
