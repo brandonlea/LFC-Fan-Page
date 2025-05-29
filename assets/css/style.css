@@ -444,4 +444,17 @@ body {
         object-fit: cover;
         height: 15rem;
     }
+
+    .text-title {
+        font-size: 4rem;
+    }
+
+    .text-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
 }
