@@ -40,8 +40,7 @@ body {
 /* Text Classes */
 
 .text-title {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 2rem;    
 }
 
 .text-paragraph {
@@ -283,11 +282,8 @@ body {
 /* Hero */
 
 #home {
-    background-image: url('../images/cover.webp');
-    background-size: cover;
-    background-position: center;
     height: 100vh;
-    width: 100%;
+    background-color: var(--primary-color);
 }
 
 /* History */

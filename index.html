@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LFC Fan Page</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+
+    <link rel="preload" as="image" href="assets/images/cover.webp">
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,15 +31,16 @@
             <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
 
-        <button role="button" class="hamburger">
+        <button name="hamburger" role="button" class="hamburger">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
 
     <header class="flex-center" id="home">
+        <img src="assets/images/cover.webp" alt="Liverpool FC">
         <div class="text-center color-white">
-            <h1 class="text-title color-white margin-bottom-1">Liverpool FC Fans</h1>
-            <p class="text-paragraph color-white margin-bottom-2">The Reds are back!</p>
+            <h1 class="text-title margin-bottom-1">Liverpool FC Fans</h1>
+            <h2 class="text-paragraph margin-bottom-2">The Reds are back!</h2>
             <a aria-label="View More gose to Stories" href="#stories" class="btn btn-primary">View More <i
                     class="fa-regular fa-circle-down"></i></a>
         </div>
@@ -528,7 +536,7 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="6" placeholder="Enter Your Message Here"></textarea>
                 </div>
-                <button role="button" class="btn btn-primary margin-top-1" type="submit">Send</button>
+                <button name="submit" role="button" class="btn btn-primary margin-top-1" type="submit">Send</button>
                 </form>
             </div>
         </section>
@@ -551,7 +559,7 @@
         </div>
     </footer>
     <!-- Scripts -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 
 </html>
