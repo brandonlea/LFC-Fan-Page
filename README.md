@@ -29,6 +29,7 @@ The ultimate page for fans to come and find history about the club, showing all 
     - [HTML](#html)
     - [CSS](#css)
     - [JS](#js-validation)
+  - [Lighthouse Testing](#lighthouse-testing)
 - [Future Improvements](#future-improvements)
 - [Changes](#changes)
 - [Features](#features)
@@ -269,6 +270,17 @@ The JS code was validated by using [JSHint](https://jshint.com/). It returned ba
 I have used [WAVE](https://wave.webaim.org/) for accessibility testing I had no errors or alerts.
 
 ![WAVE](docs/tests/wave.png)
+
+[Back to the Top](#contents)
+
+## Lighthouse Testing
+I have used Lighthouse to test Perfomance, Accessibility, Best Practices, SEO
+
+### Mobile 
+![Mobile Lighthouse](docs/tests/mobile-lighthouse.png)
+
+### Desktop
+![Desktop Lighthouse](docs/tests/desktop-lighthouse.png)
 
 [Back to the Top](#contents)
 ## Credits
