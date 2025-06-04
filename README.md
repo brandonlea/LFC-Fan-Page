@@ -168,6 +168,7 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 - I had to make a few changes from the wireframe since I made the design wide and forget to consider how it would look.
 - Color changes to make it better for contrast.
+- I've changed the flow of the website I was suppose to have trophies left to right row since it looks nice I think making it basic looks and feels better.
 
 [Back to the Top](#contents)
 
