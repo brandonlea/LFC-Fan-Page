@@ -243,6 +243,11 @@ I have used [W3C HTML Validation](https://validator.w3.org/). I have tested my 1
 The CSS code was validated by using [W3C CSS Validation](https://jigsaw.w3.org/css-validator/). It returned back no errors just 1 warning.
 
 ![CSS Validation](docs/tests/css-validation.png)
+
+### JS Validation
+The JS code was validated by using [JSHint](https://jshint.com/). It returned back no errors just a few warnings for forms and being unsued but it's being used in the index.html
+
+![JS Validation](docs/tests/js-validation.png)
 ## Credits
 
 - Feedback and Support
