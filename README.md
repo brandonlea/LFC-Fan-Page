@@ -264,6 +264,11 @@ The JS code was validated by using [JSHint](https://jshint.com/). It returned ba
 ![JS Validation](docs/tests/js-validation.png)
 
 [Back to the Top](#contents)
+
+### Accessibility Testing
+I have used [WAVE](https://wave.webaim.org/) for accessibility testing I had no errors or alerts.
+
+[Back to the Top](#contents)
 ## Credits
 
 - Feedback and Support
