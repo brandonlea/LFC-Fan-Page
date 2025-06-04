@@ -37,6 +37,11 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [Content Sections](#content-sections)
   - [User Experience](#user-experience)
   - [Technical Features](#technical-features)
+- [Deployment](#deployment)
+  - [To deploy project](#to-deploy-the-project)
+  - [To fork project](#to-fork-the-project)
+  - [to clone project](#to-clone-the-project)
+- [Credits](#credits)
 
 ## Main Purpose
 
@@ -283,6 +288,40 @@ I have used Lighthouse to test Perfomance, Accessibility, Best Practices, SEO
 ![Desktop Lighthouse](docs/tests/desktop-lighthouse.png)
 
 [Back to the Top](#contents)
+
+## Deployment
+
+### To deploy the project
+LFC App was deployed using Github pages if you want to do the same follow these simple steps.
+
+- Navigate to the repository on GitHub and click on Settings.
+- In the side navigation and select Pages.
+- In the None dropdown and choose Main.
+- Click on the Save button.
+- The website is now live!
+[Back to the Top](#contents)
+
+## To fork the project
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
+
+## To clone the project
+
+- Log in to GitHub.
+- Navigate to the main page of the repository and click Code.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
+[Back to the Top](#contents)
+
 ## Credits
 
 - Feedback and Support
