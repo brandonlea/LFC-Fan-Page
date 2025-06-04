@@ -23,7 +23,12 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [Libraries](#libraries)
   - [Tools](#tools)
 - [Testing](#testing)
-  - [Bugs](#bugs)
+  - [Bugs Fixed](#bugs)
+  - [Responsiveness Tests](#responsiveness-tests)
+  - [Code Validation](#code-validation)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JS](#js-validation)
 - [Future Improvements](#future-improvements)
 - [Changes](#changes)
 - [Features](#features)
@@ -214,8 +219,12 @@ I made sure to test each section when I was adding it and after everything was d
 | Website Responsive.                      | Fixed  | I took a different approach to make the website more responsive and use less code.    | I made reusable classes and used mobile first so I only had to use 1 media query for laptop and bigger.                              |
 | Form Validation and sending email.       | Fixed  | The form wasn't working with mailto so I had to use a 3rd party system to send email. | I fixed this by using a 3rd party system called [https://formsubmit.co/](https://formsubmit.co/) which works way better and simpler. |
 
+[Back to the Top](#contents)
+
 ### Responsiveness Tests
 To test responsiveness I made sure to use mobile first approach and kept testing it using developer tools then after it was done I used [Responsive Design Checker](https://responsivedesignchecker.com/) to make sure it worked on multiple devices.
+
+[Back to the Top](#contents)
 
 When I was developing the website I was using Google Chromes Mobile Simulator to make sure it was working correctly and I have made it responsive by aligning each section and allowing the text and images to shirk to able to see and fit correctly.
 | Size | Device Example          | Navigation | Element Alignments | Content Placement | Functionality | Notes                                                    |
@@ -231,6 +240,7 @@ When I was developing the website I was using Google Chromes Mobile Simulator to
 | xl   | 20 Inch Desktop         | Good       | Good               | Good              | Good          |                                                          |
 | xl   | 24 Inch Desktop         | Good       | Good               | Good              | Good          | Make the contact form stand out more for bigger screens. |
 
+[Back to the Top](#contents)
 
 ## Code Validation
 
@@ -239,15 +249,21 @@ I have used [W3C HTML Validation](https://validator.w3.org/). I have tested my 1
 
 ![HTML Validation](docs/tests/html-validation.png)
 
+[Back to the Top](#contents)
+
 ### CSS
 The CSS code was validated by using [W3C CSS Validation](https://jigsaw.w3.org/css-validator/). It returned back no errors just 1 warning.
 
 ![CSS Validation](docs/tests/css-validation.png)
 
+[Back to the Top](#contents)
+
 ### JS Validation
 The JS code was validated by using [JSHint](https://jshint.com/). It returned back no errors just a few warnings for forms and being unsued but it's being used in the index.html
 
 ![JS Validation](docs/tests/js-validation.png)
+
+[Back to the Top](#contents)
 ## Credits
 
 - Feedback and Support
