@@ -346,9 +346,16 @@ body {
     border: 1px solid #ccc;
   }
 
+
+  .form-group input:focus-visible, .form-group textarea:focus-visible {
+    outline: none;
+    border: 2px solid var(--primary-color);
+  }
+
   #contact-form .form-group {
     width: 100%;
   }
+
   
 
   /* Footer */
