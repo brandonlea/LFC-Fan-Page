@@ -268,6 +268,8 @@ The JS code was validated by using [JSHint](https://jshint.com/). It returned ba
 ### Accessibility Testing
 I have used [WAVE](https://wave.webaim.org/) for accessibility testing I had no errors or alerts.
 
+![WAVE](docs/tests/wave.png)
+
 [Back to the Top](#contents)
 ## Credits
 
