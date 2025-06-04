@@ -18,7 +18,7 @@
     <title>LFC Fan Page</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -36,7 +36,7 @@
             <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
 
-        <button name="hamburger" role="button" class="hamburger">
+        <button name="hamburger" class="hamburger">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
@@ -525,24 +525,24 @@
 
         <section class="section" id="contact">
             <h2 class="section-title">Contact Us</h2>
-            <div id="contact-content"">
+            <div id="contact-content">
                 <form id="contact-form" name="contact-form" onsubmit="validateForm(event)" method="POST"
                 action="https://formspree.io/f/xbloeevj">
                 <div id="form-row">
-                    <div id="form-group">
+                    <div class="form-group">
                         <label for="subject">Full Name</label>
                         <input type="text" id="subject" name="subject" placeholder="Full Name">
                     </div>
-                    <div id="form-group">
+                    <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="Email">
                     </div>
                 </div>
-                <div id="form-group">
+                <div class="form-group">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="6" placeholder="Enter Your Message Here"></textarea>
                 </div>
-                <button name="submit" role="button" class="btn btn-primary margin-top-1" type="submit">Send</button>
+                <button name="submit" class="btn btn-primary margin-top-1" type="submit">Send</button>
                 </form>
             </div>
         </section>
@@ -552,7 +552,7 @@
     <!-- Footer -->
     <footer id="footer">
         <div id="footer-content">
-            <a href="https://facebook.com/" id="footer-social" aria-label="Facebook" target="_blank" rel="noopener">
+            <a href="https://facebook.com/" class="footer-social" aria-label="Facebook" target="_blank" rel="noopener">
                 <i class="fab fa-facebook fa-2x"></i>
             </a>
             <div id="footer-section">
@@ -560,7 +560,7 @@
                 <p>Liverpool FC Fan for Educational Purposes</p>
                 <div></div>
             </div>
-            <a href="https://github.com/brandonlea/LFC-Fan-Page" id="footer-social" aria-label="GitHub Project"
+            <a href="https://github.com/brandonlea/LFC-Fan-Page" class="footer-social" aria-label="GitHub Project"
                 target="_blank" rel="noopener">
                 <i class="fab fa-github fa-2x"></i>
             </a>

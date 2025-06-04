@@ -320,18 +320,18 @@ body {
     width: 100%;
   }
 
-  #form-row #form-group {
+  #form-row .form-group {
     flex: 1;
     margin-bottom: 1rem;
   }
 
-  #form-group {
+  .form-group {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
-  #form-group label {
+  .form-group label {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -339,14 +339,14 @@ body {
     text-align: left;
   }
 
-  #form-group input, #form-group textarea {
+  .form-group input, .form-group textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
 
-  #contact-form #form-group {
+  #contact-form .form-group {
     width: 100%;
   }
   
@@ -385,13 +385,13 @@ body {
     font-size: 0.8rem;
   }
 
-  #footer-social {
+  .footer-social {
     color: var(--white);
     transition: color 0.2s;
     font-size: 1rem;
   }
   
-  #footer-social:hover, #footer-social:focus {
+  .footer-social:hover, .footer-social:focus {
     color: var(--primary-color);
   }
   

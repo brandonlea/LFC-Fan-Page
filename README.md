@@ -22,6 +22,8 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [Languages](#languages)
   - [Libraries](#libraries)
   - [Tools](#tools)
+- [Testing](#testing)
+  - [Bugs](#bugs)
 - [Future Improvements](#future-improvements)
 - [Changes](#changes)
 - [Features](#features)
@@ -202,6 +204,45 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 [Back to the Top](#contents)
 
+## Testing
+
+### Bugs
+I made sure to test each section when I was adding it and after everything was done so I could make sure there was no issues.
+| Bug                                      | Status | Description                                                                           | Steps To Resolve                                                                                                                     |
+| ---------------------------------------- | ------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Performance was low due to images sizes. | Fixed  | Images was too big and causing to load slower.                                        | I compressed the images and used loading="lazy" on the images to fix this issue.                                                     |
+| Website Responsive.                      | Fixed  | I took a different approach to make the website more responsive and use less code.    | I made reusable classes and used mobile first so I only had to use 1 media query for laptop and bigger.                              |
+| Form Validation and sending email.       | Fixed  | The form wasn't working with mailto so I had to use a 3rd party system to send email. | I fixed this by using a 3rd party system called [https://formsubmit.co/](https://formsubmit.co/) which works way better and simpler. |
+
+### Responsiveness Tests
+To test responsiveness I made sure to use mobile first approach and kept testing it using developer tools then after it was done I used [Responsive Design Checker](https://responsivedesignchecker.com/) to make sure it worked on multiple devices.
+
+When I was developing the website I was using Google Chromes Mobile Simulator to make sure it was working correctly and I have made it responsive by aligning each section and allowing the text and images to shirk to able to see and fit correctly.
+| Size | Device Example          | Navigation | Element Alignments | Content Placement | Functionality | Notes                                                    |
+| ---- | ----------------------- | ---------- | ------------------ | ----------------- | ------------- | -------------------------------------------------------- |
+| sm   | Apple Iphone 3/4/4's    | Good       | Good               | Good              | Good          |                                                          |
+| sm   | Samsung Galaxy S5/S6/S7 | Good       | Good               | Good              | Good          |                                                          |
+| sm   | Google Pixel            | Good       | Good               | Good              | Good          |                                                          |
+| md   | Ipad Mini               | Good       | Good               | Good              | Good          |                                                          |
+| md   | Samsung Galaxy Tab 10   | Good       | Good               | Good              | Good          |                                                          |
+| md   | Amazon Kindle           | Good       | Good               | Good              | Good          |                                                          |
+| lg   | 10 Inch Notebook        | Good       | Good               | Good              | Good          |                                                          |
+| lg   | 15 Inch Notebook        | Good       | Good               | Good              | Good          |                                                          |
+| xl   | 20 Inch Desktop         | Good       | Good               | Good              | Good          |                                                          |
+| xl   | 24 Inch Desktop         | Good       | Good               | Good              | Good          | Make the contact form stand out more for bigger screens. |
+
+
+## Code Validation
+
+### HTML
+I have used [W3C HTML Validation](https://validator.w3.org/). I have tested my 1 HTML page and came back with no errors.
+
+![HTML Validation](docs/tests/html-validation.png)
+
+### CSS
+The CSS code was validated by using [W3C CSS Validation](https://jigsaw.w3.org/css-validator/). It returned back no errors just 1 warning.
+
+![CSS Validation](docs/tests/css-validation.png)
 ## Credits
 
 - Feedback and Support
