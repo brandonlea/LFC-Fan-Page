@@ -65,7 +65,7 @@ body {
 
 /* Font Classes */
 .font-bold {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* Text Size */
@@ -100,7 +100,7 @@ body {
 .section-title {
     text-align: center;
     font-size: clamp(1.5rem, 3vw, 2.5rem);
-    font-weight: bold;
+    font-weight: 700;
     padding: 1rem 2rem;
     background-color: var(--primary-color);
     color: var(--white);
@@ -159,7 +159,7 @@ body {
 
 .card-title {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 1rem;
     white-space: nowrap;
 }
@@ -183,7 +183,7 @@ body {
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.2rem;
 }
 
@@ -253,7 +253,7 @@ body {
     color: var(--white);
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 700;
     padding: 1rem;
     display: block;
     width: 100%;
@@ -262,7 +262,7 @@ body {
 
 .logo {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--white);
     text-decoration: none;
 }
@@ -319,7 +319,7 @@ body {
 
   .form-group label {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0.5rem;
     color: var(--black);
     text-align: left;
@@ -369,7 +369,7 @@ body {
 
   #footer-section h3 {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 
@@ -423,7 +423,7 @@ body {
         text-decoration: none;
         color: var(--white);
         font-size: 1.2rem;
-        font-weight: bold;
+        font-weight: 700;
         padding: 1rem 0;
         transition: color 0.3s;
     }
