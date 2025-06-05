@@ -122,16 +122,25 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 ## Colors
 
-![Coolors Scheme](docs/colors/LFC%20Colors.png)
+![Coolors Scheme](docs/colors/LFC-Colors.png)
 
 [Back to the Top](#contents)
+
+### Color Variables
+| Variables          | Color (HEX) | Notes                                                                                                     |
+| ------------------ | ----------- | --------------------------------------------------------------------------------------------------------- |
+| \--primary-color   | #C70000     | This is used in Navbar, Footer, Buttons as this is the main color for the website.                        |
+| \--secondary-color | #F8F8F8     | This is used in the background color to make it standout to any other colors.                             |
+| \--darker-primary-color | #8B0303     | This is used in the buttons background and section title where the red is darker for a better contrast.                             |
+| \--white           | #FFF        | This is used in Text, Cards, Buttons everywhere that contains white color because thats the main purpose. |
+| \--black           | #000        | This is used in Text also can be used in anything else that you want black.                               |
 
 ## Technologies Used
 
 ### Languages
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 [Back to the Top](#contents)
