@@ -16,20 +16,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Smooth Scroll */
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
+    font-size: 10px;
 }
 
-/* Body */
+
 body {
     background-color: var(--secondary-color);
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 
 /* Utility Classes */
-
 .flex-center {
     display: flex;
     justify-content: center;
@@ -37,7 +38,6 @@ body {
 }
 
 /* Text Classes */
-
 .text-title {
     font-size: 2rem;    
 }
@@ -52,7 +52,6 @@ body {
 
 
 /* Color Classes */
-
 .color-white {
     color: var(--white);
 }
@@ -67,25 +66,21 @@ body {
 }
 
 /* Font Classes */
-
 .font-bold {
     font-weight: bold;
 }
 
 /* Text Size */
-
 .text-medium {
     font-size: 1rem;
 }
 
 /* Line Height */
-
 .line-height-2 {
     line-height: 1.5;
 }
 
 /* Margin Classes */
-
 .margin-bottom-1 {
     margin-bottom: 1rem;
 }
@@ -100,7 +95,6 @@ body {
 
 
 /* Section Classes */
-
 .section {
     padding: 2rem;
 }
@@ -119,7 +113,6 @@ body {
 }
 
 /* Cards Classes */
-
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +181,6 @@ body {
 }
 
 /* Button Classes */
-
 .btn {
     padding: 0.5rem 2rem;
     border-radius: 5px;
@@ -208,7 +200,6 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
     padding: 0.8rem;
     position: fixed;
@@ -279,7 +270,6 @@ body {
 }
 
 /* Hero */
-
 #home {
     height: 100vh;
     background-color: var(--primary-color);
@@ -290,7 +280,6 @@ body {
 }
 
 /* History */
-
 #history .cards .card .card-title {
     font-size: 1rem;
 }
@@ -358,7 +347,6 @@ body {
   
 
   /* Footer */
-
   #footer {
     padding: 1rem;
     background-color: var(--primary-color);
@@ -400,6 +388,7 @@ body {
   .footer-social:hover, .footer-social:focus {
     color: var(--primary-color);
   }
+
   
 /* Media Queries */
 
