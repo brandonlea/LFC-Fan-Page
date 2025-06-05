@@ -8,13 +8,16 @@ The ultimate page for fans to come and find history about the club, showing all 
 
 ## Contents
 
-[Contents](#contents)
+  - [Rationale](#contents)
+    - [Main Purpose](#main-purpose)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Website Goals & Objectives](#website-goals-and-objectives)
+    - [Target Audience](#target-audience)
+    - [Future Improvements](#future-improvements)
 
-- [User Goals](#user-goals)
-- [User Stories](#user-stories)
-- [Website Goals & Objectives](#website-goals-and-objectives)
-- [Target Audience](#target-audience)
 - [Wireframes](#wireframes)
+  - [Changes](#changes)
 - [Designs](#designs)
   - [Typography](#typography)
   - [Colors](#colors)
@@ -29,9 +32,7 @@ The ultimate page for fans to come and find history about the club, showing all 
     - [HTML](#html)
     - [CSS](#css)
     - [JS](#js-validation)
-  - [Lighthouse Testing](#lighthouse-testing)
-- [Future Improvements](#future-improvements)
-- [Changes](#changes)
+    - [Lighthouse Testing](#lighthouse-testing)
 - [Features](#features)
   - [Navigation](#navigation)
   - [Content Sections](#content-sections)
