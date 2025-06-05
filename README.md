@@ -42,6 +42,7 @@ The ultimate page for fans to come and find history about the club, showing all 
   - [To deploy project](#to-deploy-the-project)
   - [To fork project](#to-fork-the-project)
   - [to clone project](#to-clone-the-project)
+- [Finished Screenshots](#finished-screenshots)
 - [Credits](#credits)
 
 ## Main Purpose
@@ -323,6 +324,29 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - Press Enter to create your local clone.
 
 [Back to the Top](#contents)
+
+## Finished Screenshots
+
+### Hero Section
+![Hero Section](docs/website/hero-section.png)
+
+### Stories Section
+![Stories Section](docs/website/stories-section.png)
+
+### Trophies Section
+![Stories Section](docs/website/trophies-section.png)
+
+### Legends Section
+![Legends Section](docs/website/legends-section.png)
+
+### History Section
+![History Section](docs/website/history-section.png)
+
+### Team Section
+![Team Section](docs/website/team-section.png)
+
+### Contact Section
+![Contact Section](docs/website/contact-section.png)
 
 ## Credits
 
