@@ -393,7 +393,7 @@ body {
 /* Media Queries */
 
 /* Desktop */
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     .navbar {
         position: fixed;
         top: 0;
