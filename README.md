@@ -98,6 +98,15 @@ The ultimate page for fans to come and find history about the club, showing all 
 
 [Back to the Top](#contents)
 
+## Future Improvements
+
+- [ ] Add more interactive features.
+- [ ] Implement dark mode.
+- [ ] Add more historical content
+- [ ] Add a FAQ section.
+
+[Back to the Top](#contents)
+
 ## Wireframes
 
 Wireframes was designed by using Balsamiq Wireframes, I followed best practice by doing Mobile version first then Tablet then follow with Desktop.
@@ -163,15 +172,6 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 - LightHouse
 - W3C HTML Validation Service
 - W3C CSS Validation Service
-
-[Back to the Top](#contents)
-
-## Future Improvements
-
-- [ ] Add more interactive features.
-- [ ] Implement dark mode.
-- [ ] Add more historical content
-- [ ] Add a FAQ section.
 
 [Back to the Top](#contents)
 
@@ -306,31 +306,31 @@ I have used Lighthouse to test Perfomance, Accessibility, Best Practices, SEO
 ### To deploy the project
 LFC App was deployed using Github pages if you want to do the same follow these simple steps.
 
-- Navigate to the repository on GitHub and click on Settings.
-- In the side navigation and select Pages.
-- In the None dropdown and choose Main.
-- Click on the Save button.
+- Navigate to the repository on **GitHub** and click on **Settings**.
+- In the side navigation and select **Pages**.
+- In the None dropdown and choose **Main**.
+- Click on the **Save** button.
 - The website is now live!
 [Back to the Top](#contents)
 
 ## To fork the project
 Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
 
-- Log in to GitHub.
-- Locate the repository.
-- Click to open it.
-- The fork button is located on the right side of the repository menu.
-- To copy the repository to your GitHub account, click the button.
+- Log in to **GitHub**.
+- Locate the **repository**.
+- Click to **open** it.
+- The fork **button** is located on the right side of the **repository menu**.
+- To copy the repository to your **GitHub account**, **click the button**.
 
 ## To clone the project
 
-- Log in to GitHub.
-- Navigate to the main page of the repository and click Code.
-- Copy the URL for the repository.
-- Open your local IDE.
-- Change the current working directory to the location where you want the cloned directory.
-- Type git clone, and then paste the URL you copied earlier.
-- Press Enter to create your local clone.
+- Log in to **GitHub**.
+- Navigate to the **main page** of the repository and **click Code**.
+- Copy the **URL** for the repository.
+- Open your local **IDE**.
+- Change the current **working directory** to the location where you want the **cloned directory**.
+- Type **git clone**, and then paste the **URL you copied earlier**.
+- Press **Enter** to create your local clone.
 
 [Back to the Top](#contents)
 
