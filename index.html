@@ -525,8 +525,7 @@
         <section class="section" id="contact">
             <h2 class="section-title">Contact Us</h2>
             <div id="contact-content">
-                <form id="contact-form" name="contact-form" onsubmit="validateForm(event)" method="POST"
-                action="https://formspree.io/f/xbloeevj">
+                <form id="contact-form" name="contact-form" onsubmit="validateForm(event)" method="GET">
                 <div id="form-row">
                     <div class="form-group">
                         <label for="subject">Full Name</label>
@@ -548,6 +547,12 @@
     </main>
     <!-- End Main -->
 
+
+    <dialog id="confirmation-dialog">
+        <h2>Thank you for your message!</h2>
+        <p>We will get back to you soon.</p>
+        <button id="close-dialog">Close</button>
+    </dialog>
     <!-- Footer -->
     <footer id="footer">
         <div id="footer-content">
