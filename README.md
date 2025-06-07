@@ -156,22 +156,22 @@ The font family I have choosen is [Lato](https://fonts.google.com/specimen/Lato,
 
 ### Libraries
 
-- Google Fonts
-- FontAwesome
+- [Google Fonts](https://fonts.google.com/)
+- [FontAwesome](https://fontawesome.com/)
 
 [Back to the Top](#contents)
 
 ### Tools
 
-- Github
-- Balsamiq
-- CDNJS
-- Am I Responsive
-- WAVE Accessibility Tool
-- CompressNow
-- LightHouse
-- W3C HTML Validation Service
-- W3C CSS Validation Service
+- [Github](https://github.com)
+- [Balsamiq](https://balsamiq.com/)
+- [CDNJS](https://cdnjs.com/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [WAVE Accessibility Tool](https://wave.webaim.org/)
+- [CompressNow](https://compressnow.com/)
+- [LightHouse](https://developer.chrome.com/docs/lighthouse/overview)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 [Back to the Top](#contents)
 
@@ -236,6 +236,7 @@ I made sure to test each section when I was adding it and after everything was d
 | Performance was low due to images sizes. | Fixed  | Images was too big and causing to load slower.                                        | I compressed the images and used loading="lazy" on the images to fix this issue.                                                     |
 | Website Responsive.                      | Fixed  | I took a different approach to make the website more responsive and use less code.    | I made reusable classes and used mobile first so I only had to use 1 media query for laptop and bigger.                              |
 | Form Validation and sending email.       | Fixed  | The form wasn't working with mailto so I had to use a 3rd party system to send email. | I fixed this by using a 3rd party system called [https://formsubmit.co/](https://formsubmit.co/) which works way better and simpler. |
+| Formsubmit.io had been flagged       | Fixed  | formsubmit.io was flagged by a user saying it's malicious that's why it's been removed.| I fixed this by removing it and not sending an email and using a get method and dialog shows up. |
 
 [Back to the Top](#contents)
 
